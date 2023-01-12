@@ -4,6 +4,7 @@
   "description": "A dark theme ported from Visual Studio Code & Nvim Tokyo Night theme.",
   "version": "0.1.1",
   "publisher": "Dionannd",
+  "icon": "images/tokyo-icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/dionannd/vscode-theme.git"
