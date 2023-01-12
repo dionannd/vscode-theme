@@ -7,6 +7,8 @@
 
 ### Screenshots
 
+[font](https://philpl.gumroad.com/l/dank-mono) used in the image.
+
 ![Tokyo Night Ported Screenshoots](/images/screenshoots.png)
 
 ### Disable Italics
