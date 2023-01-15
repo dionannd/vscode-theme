@@ -392,18 +392,6 @@
       }
     },
     {
-      "name": "Keyword",
-      "scope": [
-        "keyword.control.flow.js",
-        "keyword.control.flow.tsx",
-        "storage.modifier.async.tsx"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#f7768e"
-      }
-    },
-    {
       "name": "Keyword Operator",
       "scope": [
         "keyword.operator.comparison",
@@ -489,13 +477,6 @@
       ],
       "settings": {
         "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
-      "settings": {
-        "foreground": "#a9b1d6"
       }
     },
     {
@@ -935,7 +916,72 @@
         "foreground": "#EEFFFF"
       }
     },
-    // Typescript & Javascript Syntax
+    // Typescript & TSX Syntax
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword.control.flow.tsx",
+        "keyword.control.flow.ts",
+        "storage.modifier.async.tsx",
+        "storage.modifier.async.ts"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#f7768e"
+      }
+    },
+    {
+      "name": "Keyword Operator TS",
+      "scope": [
+        "keyword.operator.expression.delete.ts",
+        "keyword.operator.new"
+      ],
+      "settings": {
+        "foreground": "#9D7CD8"
+      }
+    },
+    {
+      "name": "Variable Other TS",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "variable.other.object.property.ts",
+        "variable.object.property.ts",
+        "variable.other.property.ts",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx",
+        "variable.object.property.tsx",
+        "support.variable.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C"
+      }
+    },
+    {
+      "name": "Meta Import TS",
+      "scope": ["meta.import.ts"],
+      "settings": {
+        "foreground": "#9D7CD8"
+      }
+    },
+    {
+      "name": "Variable Read Write",
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "variable.other.constant.ts",
+        "meta.object.member.ts",
+        "meta.embedded.line.ts",
+        "meta.embedded.line.tsx",
+        "meta.import.tsx",
+        "meta.definition.variable.tsx",
+        "meta.array.literal.tsx",
+        "meta.arrow.tsx",
+        "meta.array.literal.tsx",
+        "meta.brace.square"
+      ],
+      "settings": {
+        "foreground": "#a9b1d6"
+      }
+    },
     {
       "name": "Type State",
       "scope": ["support.type.primitive"],
@@ -986,7 +1032,8 @@
       "scope": [
         "variable.other.object.property.tsx",
         "variable.other.object.property.js",
-        "variable.other.property.tsx"
+        "variable.other.property.tsx",
+        "keyword.operator.logical"
       ],
       "settings": {
         "foreground": "#1abc9c"
@@ -1011,6 +1058,15 @@
       "scope": ["meta.export.default"],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    // Javascript & JSX Syntax
+    {
+      "name": "Keyword",
+      "scope": ["keyword.control.flow.js"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#f7768e"
       }
     },
     // HTML Syntax
