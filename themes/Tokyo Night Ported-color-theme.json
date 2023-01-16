@@ -950,7 +950,8 @@
         "meta.object-literal.key.ts",
         "meta.object-literal.key.tsx",
         "variable.object.property.tsx",
-        "support.variable.property.tsx"
+        "support.variable.property.tsx",
+        "entity.other.attribute-name.tsx"
       ],
       "settings": {
         "foreground": "#1ABC9C"
@@ -1009,7 +1010,7 @@
     },
     {
       "name": "TS JS - Variable",
-      "scope": ["variable.other.object"],
+      "scope": ["variable.other.object", "meta.tag.attributes.tsx"],
       "settings": {
         "foreground": "#c0caf5"
       }
@@ -1040,13 +1041,6 @@
       }
     },
     {
-      "name": "Import Javascript",
-      "scope": ["meta.import.js", "meta.block.js", "source.js"],
-      "settings": {
-        "foreground": "#BB9AF7"
-      }
-    },
-    {
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
@@ -1067,6 +1061,39 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#f7768e"
+      }
+    },
+    {
+      "name": "Variable Read Write",
+      "scope": [
+        "meta.definition.variable.js",
+        "variable.other.object.js",
+        "meta.block.js",
+        "meta.embedded.line.js"
+      ],
+      "settings": {
+        "foreground": "#a9b1d6"
+      }
+    },
+    {
+      "name": "Meta tag",
+      "scope": ["meta.embedded.expression.js"],
+      "settings": {
+        "foreground": "#a9b1d6"
+      }
+    },
+    {
+      "name": "Import Javascript",
+      "scope": ["meta.import.js", "source.js"],
+      "settings": {
+        "foreground": "#BB9AF7"
+      }
+    },
+    {
+      "name": "Object Property",
+      "scope": ["variable.other.property.js"],
+      "settings": {
+        "foreground": "#1abc9c"
       }
     },
     // HTML Syntax
