@@ -2,7 +2,7 @@
   "name": "tokyo-night-ported-nvim",
   "displayName": "Tokyo Night Ported Nvim",
   "description": "🏙 A clean, dark VSCode theme ported from Visual Studio Code & Nvim Tokyo Night theme, with support each language program.",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "publisher": "Dionannd",
   "icon": "images/tokyo-icon.png",
   "repository": {
