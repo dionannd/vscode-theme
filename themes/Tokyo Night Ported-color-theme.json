@@ -959,7 +959,7 @@
     },
     {
       "name": "Meta Import TS",
-      "scope": ["meta.import.ts"],
+      "scope": ["meta.import.ts", "entity.other.inherited-class.ts"],
       "settings": {
         "foreground": "#9D7CD8"
       }
@@ -1010,7 +1010,11 @@
     },
     {
       "name": "TS JS - Variable",
-      "scope": ["variable.other.object", "meta.tag.attributes.tsx"],
+      "scope": [
+        "variable.other.object",
+        "meta.tag.attributes.tsx",
+        "meta.function.expression.ts"
+      ],
       "settings": {
         "foreground": "#c0caf5"
       }
