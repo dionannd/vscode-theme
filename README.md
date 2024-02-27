@@ -5,13 +5,13 @@
 
 🏙 A clean, dark VSCode theme ported from Visual Studio Code & Nvim Tokyo Night theme, with support each language program.
 
-### Screenshots
+## Screenshots
 
 [font](https://philpl.gumroad.com/l/dank-mono) used in the image.
 
 ![Tokyo Night Ported Screenshoots](/images/screenshoots.png)
 
-### Disable Italics
+## Disable Italics
 
 ```json
 "editor.tokenColorCustomizations": {
